@@ -1,2 +1,22 @@
+# Third-party binary content (pip installed)
+# Keep only package.py and init.bat in version directories
+*/win32/
+*/win32com/
+*/win32comext/
+*/adodbapi/
+*/isapi/
+*/pythonwin/
+*/pywin32_system32/
+*/pywin32-*.dist-info/
+*/bin/
+*/.lock
+*/PyWin32.chm
+*/pywin32.pth
+*/pywin32.version.txt
+*/pythoncom.py
+*/pythoncom*.dll
+*/pywintypes*.dll
+
+# Python cache
 __pycache__/
 *.pyc
